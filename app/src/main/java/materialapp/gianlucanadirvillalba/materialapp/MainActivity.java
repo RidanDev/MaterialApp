@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
     }
 
+    /**
+     * Aggiungo il menu all'activity
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
@@ -28,6 +31,9 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    /**
+     * Gestisco il click dell'opzione del menu
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
