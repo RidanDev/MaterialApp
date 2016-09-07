@@ -7,6 +7,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+/**
+ * Classe principale
+ */
 public class MainActivity extends AppCompatActivity
 {
     private Toolbar toolbar;
